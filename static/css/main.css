@@ -1,0 +1,52 @@
+:root{
+    --foam:#c5d5cb;
+    --dark:#9fa8a3;
+    --tan:#e3d0cf;
+}
+
+body{
+    height: 100vh;
+    color: var(--foam);
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    color: var(--foam);
+    text-align: left;
+}
+
+input{
+    color: var(--foam);
+
+}
+
+.card{
+    align-self: center;
+    margin-top: 20px;
+}
+
+#card-body{
+    background-color: var(--tan);
+    align-items: center;
+}
+
+#forecast{
+    background-color: var(--dark);
+}
+
+#high{
+    background-color: var(--dark);
+}
+
+#low{
+    background-color: var(--dark);
+}
+
+#humidity{
+    background-color: var(--dark);
+}
+
+
+
+
